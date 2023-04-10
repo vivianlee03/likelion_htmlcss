@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+}
+
+#alert {
+  display: none;
+  text-align: center;
+  padding-top: 300px;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+/* header */
+.hd {
+  position: relative;
+  text-align: center;
+}
+
+.hd-title {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  color: white;
+}
+
+header {
+  height: 40px;
+  background-color: #333;
+}
+
+main {
+  height: 600px;
+  width: 750px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  color: rgb(0, 0, 0);
+}
+
+#top {
+  height: 35px;
+  background-color: #f0cdea;
+  margin-bottom: 25px;
+  border-radius: 0 0 10px 10px;
+  color: rgb(20, 49, 177);
+  font-size: 18px;
+  text-align: center;
+  line-height: 35px;
+}
+
+#container {
+  height: 410px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  text-align: center;
+}
+
+aside {
+  height: 110px;
+  background-color: #f8f8f8;
+  margin-bottom: 60px;
+  margin: 0 15px 60px 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section {
+  height: 45%;
+  width: 30%;
+  /* background-color: white; */
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section p {
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+#mbti {
+  background-image: url("./image/infj.webp");
+  background-size: cover;
+  height: 45%;
+  width: 30%;
+  position: relative;
+  color: white;
+}
+
+#mbti:hover {
+  transform: scale(1.4);
+  transition: all 0.2s linear;
+  z-index: 2;
+}
+
+#movie {
+  background-image: url("./image/afteryang.jpg");
+  background-size: cover;
+  height: 45%;
+  width: 30%;
+  position: relative;
+  color: white;
+}
+
+#movie:hover {
+  transform: scale(1.4);
+  transition: all 0.2s linear;
+}
+
+#music {
+  background-image: url("./image/jonny.webp");
+  background-size: cover;
+  height: 45%;
+  width: 30%;
+  position: relative;
+  color: white;
+}
+
+#music:hover {
+  transform: scale(1.4);
+  transition: all 0.2s linear;
+}
+
+#team {
+  width: 470px;
+  height: 100%;
+  background-color: rgb(209, 233, 255);
+  color: black;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+#hi {
+  width: 230px;
+  height: 100%;
+  background-color: rgb(229, 211, 255);
+  color: black;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: Bold;
+  text-decoration: underline;
+  border: 2px solid black;
+}
+
+footer {
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  color: grey;
+  padding: 50px;
+}
+
+@media (max-width: 880px) {
+  #main-container {
+    display: none;
+  }
+  #alert {
+    display: block;
+  }
+}
+
+a {
+  display: block;
+}
